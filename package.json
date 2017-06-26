@@ -1,0 +1,37 @@
+{
+  "name": "stylelint-config-videoamp",
+  "version": "1.0.0-rc.0",
+  "description": "VideoAmp's shareable config for Stylelint",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "videoamp"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "VideoAmp <geeks@videoamp.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/videoamp/stylelint-config-videoamp.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "stylelint-config-css-modules": "^1.0.0",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.5.0",
+    "stylelint-scss": "^1.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.0",
+    "eslint-config-videoamp": "^4.1.1",
+    "stylelint": "^7.8.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=7.8.0"
+  }
+}
