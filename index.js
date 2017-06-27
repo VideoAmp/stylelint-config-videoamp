@@ -174,7 +174,7 @@ module.exports = {
         "selector-attribute-quotes": "always",
         "selector-max-compound-selectors": 10,
         "selector-max-specificity": "1,2,2",
-        "selector-no-id": true,
+        "selector-max-id": 0,
         "selector-no-vendor-prefix": true,
         "selector-pseudo-class-no-unknown": [
             true,
