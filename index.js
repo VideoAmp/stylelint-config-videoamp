@@ -32,7 +32,6 @@ module.exports = {
             ],
         },
         "font-family-name-quotes": "always-where-recommended",
-        "font-weight-notation": "named-where-possible",
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "never",
         "indentation": 4,
