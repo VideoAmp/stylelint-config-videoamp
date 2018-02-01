@@ -15,10 +15,6 @@ module.exports = {
         "scss/at-mixin-no-argumentless-call-parentheses": true,
         "scss/selector-no-redundant-nesting-selector": true,
         "at-rule-blacklist": ["extend"],
-        "at-rule-no-unknown": [
-            true,
-            { ignoreAtRules: ["extend", "at-root", "debug", "warn", "error", "if", "else", "for", "each", "while", "mixin", "include", "function", "return"] },
-        ],
         "at-rule-no-vendor-prefix": true,
         "color-named": "never",
         "color-hex-case": "upper",
