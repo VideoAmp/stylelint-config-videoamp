@@ -17,7 +17,7 @@ module.exports = {
         "at-rule-blacklist": ["extend"],
         "at-rule-no-unknown": [
             true,
-            { ignoreAtRules: ["each", "else", "for", "if", "include", "mixin"] },
+            { ignoreAtRules: [ "extend", "at-root", "debug", "warn", "error", "if", "else", "for", "each", "while", "mixin", "include", "function", "return" ] },
         ],
         "at-rule-no-vendor-prefix": true,
         "color-named": "never",
