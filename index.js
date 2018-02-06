@@ -12,8 +12,10 @@ module.exports = {
     ],
     "rules": {
         "scss/at-import-no-partial-leading-underscore": true,
-        "scss/at-mixin-no-argumentless-call-parentheses": true,
+        "scss/at-mixin-argumentless-call-parentheses": "always",
         "scss/selector-no-redundant-nesting-selector": true,
+        "scss/at-rule-no-unknown": true,
+        "at-rule-no-unknown": null,
         "at-rule-blacklist": ["extend"],
         "at-rule-no-vendor-prefix": true,
         "color-named": "never",
