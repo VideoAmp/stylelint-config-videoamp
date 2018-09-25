@@ -16,7 +16,7 @@ module.exports = {
         "scss/selector-no-redundant-nesting-selector": true,
         "scss/at-rule-no-unknown": [
             true,
-            { "ignoreAtRules": ["apply"] },
+            { "ignoreAtRules": ["apply", "screen", "tailwind"] },
         ],
         "at-rule-no-unknown": null,
         "at-rule-blacklist": ["extend"],
@@ -182,7 +182,6 @@ module.exports = {
             { "ignoreProperties": ["contain", "composes"] },
         ],
         "selector-attribute-quotes": "always",
-        "selector-list-comma-space-after": "always",
         "selector-max-compound-selectors": 10,
         "selector-max-specificity": "1,2,2",
         "selector-max-id": 0,
