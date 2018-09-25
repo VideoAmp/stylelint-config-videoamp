@@ -194,7 +194,7 @@ module.exports = {
         "selector-pseudo-element-case": "lower",
         "selector-pseudo-element-colon-notation": "double",
         "string-no-newline": true,
-        "string-quotes": "double",
+        "string-quotes": "single",
         "unit-case": "lower",
         "value-no-vendor-prefix": true,
         "value-keyword-case": "lower"
